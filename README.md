@@ -1,50 +1,138 @@
-# Welcome to your Expo app 👋
+📄 README.md – iOS Assignment App (React Native + Expo)
+markdown
+Copy
+Edit
+# 📱 iOS Assignment App (React Native + Expo Router)
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+This is a simple mobile application built using **React Native**, **Expo**, and **Expo Router**. It allows users to **Add**, **Edit**, **View**, and **Delete** items using a UI powered by mock API endpoints. This project is part of an iOS assignment designed to demonstrate frontend skills using modern frameworks.
 
-## Get started
+---
 
-1. Install dependencies
+## 🚀 Features
 
+- ✅ Home screen with list display
+- ➕ Add new items via a form
+- ✏️ Edit existing items
+- ❌ Delete items with confirmation
+- 🌐 Connects to mock API for CRUD
+- 📱 Runs on both iOS and Android via Expo
+
+---
+
+## 🧰 Technologies Used
+
+- **React Native**
+- **Expo**
+- **Expo Router (v5+)**
+- **React Navigation**
+- **Mock API** (e.g., MockAPI.io or JSONPlaceholder)
+- **TypeScript (optional)**
+- **VS Code** for development
+
+---
+
+## 📦 Project Structure
+
+ios-assignment-app/
+├── app/ # Expo Router pages
+│ ├── index.tsx # Home Screen
+│ ├── add.tsx # Add Item Screen
+│ ├── edit.tsx # Edit Item Screen
+│ └── details.tsx # Optional: Detailed View
+├── screens/ # UI Components
+├── mockAPI/ # Mock API setup or URLs
+├── assets/ # Fonts, images, etc.
+├── App.tsx or _layout.tsx
+├── package.json
+└── README.md
+
+yaml
+Copy
+Edit
+
+---
+
+## 🛠️ Installation
+
+1. Clone this repository:
    ```bash
-   npm install
-   ```
+   git clone https://github.com/your-username/ios-assignment-app.git
+   cd ios-assignment-app
+Install dependencies:
 
-2. Start the app
+bash
+Copy
+Edit
+npm install
+Start the development server:
 
-   ```bash
-   npx expo start
-   ```
+bash
+Copy
+Edit
+npx expo start
+Open the app:
 
-In the output, you'll find options to open the app in a
+Use Expo Go App on your phone and scan the QR code
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+Or run:
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+bash
+Copy
+Edit
+npm run android  # for Android emulator
+npm run ios      # for iOS simulator (Mac only)
+🌐 API Integration
+This app connects to a mock API for all CRUD operations.
 
-## Get a fresh project
+You can use MockAPI.io to create your own collection.
 
-When you're ready, run:
+Replace the API URL in your data fetching logic:
 
-```bash
-npm run reset-project
-```
+js
+Copy
+Edit
+const BASE_URL = 'https://your-mockapi-endpoint.com/items';
+⚙️ Example Screens
+Screens included:
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+HomeScreen: Lists all items
 
-## Learn more
+AddScreen: Adds a new item
 
-To learn more about developing your project with Expo, look at the following resources:
+EditScreen: Updates existing item
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+DetailsScreen: Shows detailed item (optional)
 
-## Join the community
+🧪 Future Enhancements
+⏳ Add loading & error states
 
-Join our community of developers creating universal apps.
+🌙 Dark Mode support
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+🔐 Authentication & route guards
+
+📡 Offline support (AsyncStorage)
+
+🧼 Linting & Prettier integration
+
+🛡️ Error boundaries and validation
+
+🧾 License
+This project is for educational/demo use only.
+
+🤝 Contributing
+Feel free to fork this project, suggest improvements, or build additional features!
+
+yaml
+Copy
+Edit
+
+---
+
+## ✅ What’s Next?
+
+If you'd like, I can:
+- Generate this as an actual `README.md` file and send it to you.
+- Help you finalize the mock API integration.
+- Guide you step-by-step through the `add.tsx`, `edit.tsx`, and `index.tsx` screen setups.
+
+Just say the word!
