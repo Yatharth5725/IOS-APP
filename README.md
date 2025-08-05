@@ -122,9 +122,4 @@ This project is for educational/demo use only.
 🤝 Contributing
 Feel free to fork this project, suggest improvements, or build additional features!
 
-yaml
-Copy
-Edit
-
----
 
