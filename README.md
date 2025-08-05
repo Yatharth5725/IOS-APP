@@ -1,7 +1,6 @@
 📄 README.md – iOS Assignment App (React Native + Expo)
 markdown
-Copy
-Edit
+
 # 📱 iOS Assignment App (React Native + Expo Router)
 
 This is a simple mobile application built using **React Native**, **Expo**, and **Expo Router**. It allows users to **Add**, **Edit**, **View**, and **Delete** items using a UI powered by mock API endpoints. This project is part of an iOS assignment designed to demonstrate frontend skills using modern frameworks.
@@ -47,8 +46,7 @@ ios-assignment-app/
 └── README.md
 
 yaml
-Copy
-Edit
+
 
 ---
 
@@ -61,14 +59,12 @@ Edit
 Install dependencies:
 
 bash
-Copy
-Edit
+
 npm install
 Start the development server:
 
 bash
-Copy
-Edit
+
 npx expo start
 Open the app:
 
@@ -77,8 +73,7 @@ Use Expo Go App on your phone and scan the QR code
 Or run:
 
 bash
-Copy
-Edit
+
 npm run android  # for Android emulator
 npm run ios      # for iOS simulator (Mac only)
 🌐 API Integration
@@ -89,8 +84,7 @@ You can use MockAPI.io to create your own collection.
 Replace the API URL in your data fetching logic:
 
 js
-Copy
-Edit
+
 const BASE_URL = 'https://your-mockapi-endpoint.com/items';
 ⚙️ Example Screens
 Screens included:
@@ -122,17 +116,3 @@ This project is for educational/demo use only.
 🤝 Contributing
 Feel free to fork this project, suggest improvements, or build additional features!
 
-yaml
-Copy
-Edit
-
----
-
-## ✅ What’s Next?
-
-If you'd like, I can:
-- Generate this as an actual `README.md` file and send it to you.
-- Help you finalize the mock API integration.
-- Guide you step-by-step through the `add.tsx`, `edit.tsx`, and `index.tsx` screen setups.
-
-Just say the word!
